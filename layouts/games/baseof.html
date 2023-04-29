@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+
+<head>
+    {{ partial "meta.html" . }}
+    <style>body {background-color: yellow;}</style>
+</head>
+
+<body>
+    {{partial "nav.html"}}
+    {{ block "main" . }}
+    {{ end }}
+</body>
+{{ partial "footer.html" . }}
+</html>
