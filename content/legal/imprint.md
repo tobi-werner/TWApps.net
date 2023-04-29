@@ -1,3 +1,7 @@
+---
+title: Impressum
+---
+
 # Impressum/legal notice
 #### Angaben gemäß § 5 TMG:
 Christian Werner

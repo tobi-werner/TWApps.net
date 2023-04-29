@@ -1,3 +1,7 @@
+---
+title: Mobile Game Privacy Policy
+---
+
 # Mobile Game Privacy Policy
 Last updated *November 4, 2018*
 
