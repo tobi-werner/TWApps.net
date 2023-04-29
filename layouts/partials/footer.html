@@ -1,0 +1,7 @@
+{{ with .Params.hide_footer }}
+ <!-- No footer here! -->
+{{ else }}
+ <footer>
+   Copyright {{ .Site.Params.name }} {{2015}}-{{ now.Year }}
+ </footer>
+{{ end }}
