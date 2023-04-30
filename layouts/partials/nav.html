@@ -1,7 +1,49 @@
-<nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        {{/*  <li><a href="/posts/">Blog</a></li>  */}}
-    </ul>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="/">
+                    Games
+                </a>
+
+                <div class="navbar-dropdown">
+                    {{ range where .Site.RegularPages "Type" "game" }}
+                    <a class="navbar-item" href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+
+            <a class="navbar-item" href="/blog/">
+                Blog
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="/press">
+                    Press
+                </a>
+
+                <div class="navbar-dropdown">
+                    {{ range where .Site.RegularPages "Type" "press" }}
+                    <a class="navbar-item" href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
 </nav>

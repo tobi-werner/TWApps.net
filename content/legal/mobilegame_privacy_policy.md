@@ -1,5 +1,6 @@
 ---
 title: Mobile Game Privacy Policy
+hide_legal_page: true
 ---
 
 # Mobile Game Privacy Policy

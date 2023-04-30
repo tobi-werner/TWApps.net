@@ -1,4 +1,18 @@
+{{ define "title" -}}
+{{ .Title }} | {{ .Site.Title }}
+{{- end }}
+
 {{ define "main" }}
-<h1>SINGLE</h1>
-{{ .Content }}
+<div class="columns is-fullheight">
+    <div class="column">
+        <section class="hero is-default is-bold">
+            <div class="hero-body">
+                <div class="content container">
+                    {{ .Content}}
+                </div>
+                <br>
+            </div>
+        </section>
+    </div>
+</div>
 {{ end }}

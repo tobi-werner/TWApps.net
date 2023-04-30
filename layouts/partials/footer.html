@@ -1,12 +1,15 @@
-{{ with .Params.hide_footer }}
- <!-- No footer here! -->
-{{ else }}
- <footer>
-   Copyright {{ .Site.Params.name }} {{2015}}-{{ now.Year }}
-   <ul>
-    <li><a href="/legal/imprint/">Impressum</a></li>
-    <li><a href="/legal/privacy_policy">Datenschutzerklärung</a></li>
-    
-  </ul>
-  </footer>
-{{ end }}
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            &copy; {{ .Site.Params.name }} {{2015}}-{{ now.Year }}
+            <ul>
+                <li><a href="mailto:contact@twapps.net">Contact</a></li>
+                {{ range where .Site.RegularPages "Type" "legal" }}
+                {{ if not .Params.hide_legal_page}}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</footer>

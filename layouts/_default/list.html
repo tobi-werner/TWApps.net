@@ -1,4 +1,48 @@
 {{ define "main" }}
-<h1>LIST</h1>
-{{ .Content }}
+<div class="columns is-fullheight">
+    <div class="column">
+        <section class="hero is-default is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="content">
+                        {{.Content}}
+                    </div>
+                    <div class="columns is-multiline">
+                        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "game") }}
+                        {{ range $paginator.Pages }}
+                        <div class="column is-half">
+                            <div class="card">
+                                <a href="{{ .Permalink }}">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="{{.Page.Params.banner}}" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x100">
+                                                    <img src="https://bulma.io/images/placeholders/96x96.png"
+                                                        alt="Placeholder image">
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">{{.Page.Params.Title}}</p>
+                                                <p class="subtitle is-6">{{.Page.Params.subtitle}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        {{ end }}
+                    </div>
+                </div>
+                <br>
+            </div>
+        </section>
+    </div>
+
+</div>
 {{ end }}
