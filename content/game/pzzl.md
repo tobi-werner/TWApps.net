@@ -11,3 +11,4 @@ Choose one of a maximum of 8 possible moves each round to place a character on t
 There are 5 unlockable game modes with different levels of difficulty, as well as a daily mode, leaderboards and achievements - scores are synchronized via iCloud.
 
 ##### Out now on iOS
+{{<appstorebadge "https://apps.apple.com/us/app/pzzl/id1042403293">}}
