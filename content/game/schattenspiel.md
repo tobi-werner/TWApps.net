@@ -11,7 +11,8 @@ Lamps emit light, while blocks create shadows. It's a simple concept, but with e
 
 With over 140 levels to explore, you can challenge yourself to solve each perfectly with a given amount of moves. Each level is a masterpiece on its own, showcasing the creative potential of light and shadow. Whether you're a casual player or a seasoned puzzle-solver, this game offers a fun and engaging way to explore the art of manipulating light and shadow.
 ##### Out now on iOS
-{{<appstorebadge "https://apps.apple.com/us/app/schattenspiel/id1222140388" >}}
+
+{{<appstorebadge "https://apps.apple.com/us/app/schattenspiel/id1222140388">}}
 
 ![image](/bg_blur.png)
 ![image](/bg_blur.png)
@@ -28,3 +29,4 @@ With over 140 levels to explore, you can challenge yourself to solve each perfec
 
 - I found this game oddly relaxing and will certainly be keeping this one in my personal group of casual puzzlers - player.one
 
+{{< youtube kFvjVxZM1sY >}}

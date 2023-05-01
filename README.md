@@ -1,6 +1,7 @@
 # TWApps.net
 
-#### Todo
+## Todo
+
 - [ ] Press Sites
 - [ ] Press Index
 - [ ] Game Sites (custom Background linked in frontend template, icon, screenshots, animation)
@@ -9,4 +10,4 @@
 - [ ] update Imprint etc.
 - [ ] RSS
 - [ ] Robots.txt
-- [ ] Google analytics
+- [ ] Google Analytics
