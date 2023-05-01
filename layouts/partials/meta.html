@@ -1,5 +1,5 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ print .Page.Title }}</title>
-{{ $style := resources.Get "bulma.sass" | resources.ToCSS | resources.Minify }}
+{{ $style := resources.GetRemote "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
