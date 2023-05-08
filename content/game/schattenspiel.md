@@ -12,15 +12,15 @@ appstoreurl: https://apps.apple.com/us/app/schattenspiel/id1222140388
 
 ## A Game of Puzzles and Shadows
 
-Lamps emit light, while blocks create shadows. It's a simple concept, but with endless possibilities. Manipulate the shadows by dragging and dropping lamps and blocks to create unique patterns and designs. Tap on a lamp to turn it on or off, and connect two lamps to create a larger light source. 
+Lamps emit light, while blocks create shadows. It's a simple concept, but with endless possibilities. Manipulate the shadows by dragging and dropping lamps and blocks to create unique patterns and designs. Tap on a lamp to turn it on or off, and connect two lamps to create a larger light source.
 
 With over 140 levels to explore, you can challenge yourself to solve each perfectly with a given amount of moves. Each level is a masterpiece on its own, showcasing the creative potential of light and shadow. Whether you're a casual player or a seasoned puzzle-solver, this game offers a fun and engaging way to explore the art of manipulating light and shadow.
 
-{{<center>}}
+{{< center>}}
 
 {{< appstorebadge >}}
 
-{{</center>}}
+{{</ center>}}
 
 {{< youtube kFvjVxZM1sY >}}
 
