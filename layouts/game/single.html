@@ -3,19 +3,14 @@
 {{- end }}
 
 {{ define "main" }}
-<section class="hero is-medium"
-    style="background: url('/{{.Page.Params.banner}}')center center; background-size:cover;">
+<section class="hero"
+    style="background: url('{{.Page.Params.banner}}') right center; background-size:cover;">
     <div class="hero-body">
-
         <div class="container has-text-centered">
-            <figure class="image is-128x128" style="position: absolute;">
-                <img src="https://bulma.io/images/placeholders/128x128.png" style="border-radius: 20px;">
-            </figure>
-            <h1 class="title">{{.Page.Title}}</h1>
+            <h1 class="game-title">{{.Page.Title}}</h1>
         </div>
     </div>
 </section>
-
 
 <div class="columns is-fullheight">
     <div class="column">

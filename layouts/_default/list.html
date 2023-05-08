@@ -15,19 +15,19 @@
                                 <a href="{{ .Permalink }}">
                                     <div class="card-image">
                                         <figure class="image is-4by3">
-                                            <img src="{{.Page.Params.banner}}" alt="Placeholder image">
+                                            <img src="/banner_{{.Page.Params.AppName | lower}}.jpg" style="object-fit: cover; object-position: 100% 50%;" alt="Placeholder image">
                                         </figure>
                                     </div>
                                     <div class="card-content">
                                         <div class="media">
                                             <div class="media-left">
                                                 <figure class="image is-48x100">
-                                                    <img src="https://bulma.io/images/placeholders/96x96.png"
-                                                        alt="Placeholder image">
+                                                    <img src="/icon_{{.Page.Params.AppName | lower}}.jpg"
+                                                        alt="Placeholder image" style="border-radius: 22%; width: 100px;">
                                                 </figure>
                                             </div>
                                             <div class="media-content">
-                                                <p class="title is-4">{{.Page.Params.Title}}</p>
+                                                <p class="title is-3 is-vcentered">{{.Page.Params.Title}}</p>
                                                 <p class="subtitle is-6">{{.Page.Params.subtitle}}</p>
                                             </div>
                                         </div>
