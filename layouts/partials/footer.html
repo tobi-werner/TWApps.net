@@ -1,11 +1,11 @@
-<footer class="py-1 my-1">
+<footer class="py-1 bg-dark text-light">
     <ul class="nav justify-content-center">
-        <li class="nav-item"><a href="mailto:contact@twapps.net" class="nav-link px-2 text-muted">Contact</a></li>
+        <li class="nav-item"><a href="mailto:contact@twapps.net" class="nav-link px-2 text-light">Contact</a></li>
         {{ range where .Site.RegularPages "Type" "legal" }}
         {{ if not .Params.hide_legal_page}}
-        <li class="nav-item"><a href="{{ .Permalink }}" class="nav-link px-2 text-muted">{{ .Title }}</a></li>
+        <li class="nav-item"><a href="{{ .Permalink }}" class="nav-link px-2 text-light">{{ .Title }}</a></li>
         {{ end }}
         {{ end }}
     </ul>
-    <p class="text-center text-muted">&copy; {{ .Site.Params.name }} {{2015}}-{{ now.Year }}</p>
+    <p class="text-center text-light">&copy; {{ .Site.Params.name }} {{2015}}-{{ now.Year }}</p>
 </footer>
