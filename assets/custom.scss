@@ -119,3 +119,34 @@ tbody tr:hover {
 //   text-align: justify;
 // 	text-align-last: none;
 // }
+
+
+#animated-background {
+  position: relative;
+  height: 50vh;
+  /* center text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#animated-background:before {
+  content: '';
+  background: url('/gif1.gif');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  filter: blur(10px);
+}
+
+#animated-background > * {
+  // color: darkorange;
+  /* stack text above pseudoelement */
+  // position: initial;
+  z-index: 2;
+}

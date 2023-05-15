@@ -1,11 +1,14 @@
 {{ define "main" }}
-<section class="py-5 text-center container">
+<div class="album" style="background-color: #eeeeee;">
+<section class="py-5 text-center container" id="animated-background" style="overflow: hidden;">
     <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="mx-auto px-5">
+            <img src="/icon_pzzl.jpg" alt="Profile picture" style="border-radius: 50%;" class="my-2">
             {{.Content}}
         </div>
     </div>
 </section>
+</div>
 
 <div class="album py-5 bg-light">
     <div class="container-lg">
