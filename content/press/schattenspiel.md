@@ -1,5 +1,6 @@
 ---
 title: Schattenspiel Presskit
+weight: 1
 ---
 
 # Schattenspiel Presskit

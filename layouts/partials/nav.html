@@ -12,84 +12,32 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGame" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Games
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownGame">
               {{ range where .Site.RegularPages "Type" "game" }}
               <li><a class="dropdown-item" href="{{ .RelPermalink }}">{{.Title}}</a></li>
               {{ end }}
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item dropdown dropdown-menu-end">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+          {{/*  <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>  */}}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPress" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Press
             </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPress" style="right: 0; left: auto;">
               {{ range where .Site.RegularPages "Type" "press" }}
-              <li><a class="dropdown-item" href="{{ .RelPermalink }}">{{.Title}}</a></li>
+              <a class="dropdown-item" href="{{ .RelPermalink }}">{{.Title}}</a>
               {{ end }}
-            </ul>
+            </div>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </header>
-
-
-
-{{/* <nav class="navbar" role="navigation" aria-label="main navigation" style="padding: 10px;">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
-
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-end">
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="/">
-          Games
-        </a>
-
-        <div class="navbar-dropdown">
-          {{ range where .Site.RegularPages "Type" "game" }}
-          <a class="navbar-item" href="{{ .RelPermalink }}">
-            {{ .Title }}
-          </a>
-          {{ end }}
-        </div>
-      </div>
-
-      <a class="navbar-item" href="/blog/">
-        Blog
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="/press">
-          Press
-        </a>
-
-        <div class="navbar-dropdown">
-          {{ range where .Site.RegularPages "Type" "press" }}
-          <a class="navbar-item" href="{{ .RelPermalink }}">
-            {{ .Title }}
-          </a>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</nav> */}}
