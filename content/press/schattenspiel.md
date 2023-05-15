@@ -13,7 +13,7 @@ title: Schattenspiel Presskit
 | Developer  | Tobias Werner    |
 | Release Date | July 27, 2017     |
 | Platforms    | iOS, ipadOS    |
-| Link | [App Store]() |
+| Link | [App Store](https://itunes.apple.com/us/app/schattenspiel/id1222140388) |
 | Website | [Schattenspiel](https://www.twapps.net/game/schattenspiel/) |
 | Regular Price | USD $0.99, EUR €1.09 |
 
