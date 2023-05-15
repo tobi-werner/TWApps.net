@@ -1,4 +1,48 @@
 {{ define "main" }}
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            {{.Content}}
+        </div>
+    </div>
+</section>
+
+<div class="album py-5 bg-light">
+    <div class="container-lg">
+        <h1>My Games</h1>
+        <div class="row row-cols-1 row-cols-sm-2 g-2">
+            {{ $paginator := .Paginate (where .Site.RegularPages "Type" "game") }}
+            {{ range $paginator.Pages }}
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" src="/banner_{{.Page.Params.AppName | lower}}.jpg"
+                    style="object-fit: cover; object-position: 100% 50%; height: 200px;"
+                    alt="Placeholder image">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-md-auto">
+                                <img src="/icon_{{.Page.Params.AppName | lower}}.jpg"
+                                alt="Placeholder image"
+                                style="border-radius: 22%; width: 100px; border: 1px solid lightgray;">
+                            </div>
+                            <div class="col-md-auto">
+                                <h2>{{.Title}}</h2>
+                                <p class="card-text">{{.Page.Params.subtitle}}</p>
+                            </div>
+                          </div>
+                          <a href="{{ .Permalink }}" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
+
+{{/* {{ define "main" }}
 <div class="columns is-fullheight">
     <div class="column">
         <section class="hero is-default is-bold">
@@ -15,7 +59,9 @@
                                 <a href="{{ .Permalink }}">
                                     <div class="card-image">
                                         <figure class="image is-4by3">
-                                            <img src="/banner_{{.Page.Params.AppName | lower}}.jpg" style="object-fit: cover; object-position: 100% 50%;" alt="Placeholder image">
+                                            <img src="/banner_{{.Page.Params.AppName | lower}}.jpg"
+                                                style="object-fit: cover; object-position: 100% 50%;"
+                                                alt="Placeholder image">
                                         </figure>
                                     </div>
                                     <div class="card-content">
@@ -23,7 +69,8 @@
                                             <div class="media-left">
                                                 <figure class="image is-48x100">
                                                     <img src="/icon_{{.Page.Params.AppName | lower}}.jpg"
-                                                        alt="Placeholder image" style="border-radius: 22%; width: 100px;">
+                                                        alt="Placeholder image"
+                                                        style="border-radius: 22%; width: 100px;">
                                                 </figure>
                                             </div>
                                             <div class="media-content">
@@ -45,4 +92,4 @@
     </div>
 
 </div>
-{{ end }}
+{{ end }} */}}

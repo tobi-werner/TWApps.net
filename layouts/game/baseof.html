@@ -6,11 +6,11 @@
 </head>
 
 <body style="background: url('/{{.Page.Params.background}}') center center; background-size: cover;">
-    <div class="container" style="background-color: #{{ .Page.Params.backgroundcolor }};">
+    {{/*  <div class="container" style="background-color: #{{ .Page.Params.backgroundcolor }};">  */}}
         {{partial "nav.html" . }}
         {{ block "main" . }}
         {{ end }}
-    </div>
+    {{/*  </div>  */}}
     {{ partial "footer.html" . }}
 </body>
 {{ partial "scripts.html" . }}

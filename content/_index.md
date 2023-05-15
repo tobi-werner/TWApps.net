@@ -8,4 +8,3 @@ title: Home
 
 I am Tobias and since 2015 I am creating games for iOS Devices.
 
-## My Games

@@ -6,11 +6,11 @@
 </head>
 
 <body>
-    <div class="container">
-        {{partial "nav.html" . }}
-        {{ block "main" . }}
-        {{ end }}
-    </div>
+    {{partial "nav.html" . }}
+    
+    {{ block "main" . }}
+    {{ end }}
+    
     {{ partial "footer.html" . }}
 </body>
 {{ partial "scripts.html" . }}
