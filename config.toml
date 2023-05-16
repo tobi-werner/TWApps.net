@@ -4,3 +4,11 @@ title = 'TWApps'
 
 [params]
 name = "Tobias Werner"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[privacy]
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

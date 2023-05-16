@@ -1,7 +1,43 @@
-<nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        {{/*  <li><a href="/posts/">Blog</a></li>  */}}
-    </ul>
-</nav>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a href="{{ .Site.BaseURL }}" class="navbar-brand d-flex align-items-center">
+        <img src="/Logo.svg" width="40" height="40" class="me-2">
+        {{/*  <strong></strong>  */}}
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGame" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Games
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownGame">
+              {{ range where .Site.RegularPages "Type" "game" }}
+              <li><a class="dropdown-item" href="{{ .RelPermalink }}">{{.Title}}</a></li>
+              {{ end }}
+            </ul>
+          </li>
+          {{/*  <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>  */}}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPress" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Press
+            </a>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPress" style="right: 0; left: auto;">
+              {{ range where .Site.RegularPages "Type" "press" }}
+              <a class="dropdown-item" href="{{ .RelPermalink }}">{{.Title}}</a>
+              {{ end }}
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

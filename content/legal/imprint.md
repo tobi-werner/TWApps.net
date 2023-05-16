@@ -1,15 +1,15 @@
 ---
-title: Impressum
+title: Imprint
 ---
 
 # Impressum/legal notice
 #### Angaben gemäß § 5 TMG:
-Christian Werner
-Raiffeisenstrasse 6
+Christian Werner\
+Raiffeisenstrasse 6\
 67251 Freinsheim
 
 ##### Kontakt:
-Email: contact@twapps.net
+Email: contact@twapps.net\
 Telefon: +49 177 7292592
 
 #### Haftung für Inhalte
