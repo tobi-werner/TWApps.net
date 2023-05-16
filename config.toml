@@ -1,6 +1,6 @@
-baseURL = 'https://wwww.twapps.net/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'TWApps'
 
 [params]
 name = "Tobias Werner"

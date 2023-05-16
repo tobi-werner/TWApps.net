@@ -1,0 +1,174 @@
+.game-title {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .game-title {
+    font-size: 3rem;
+  }
+}
+
+/**Navbar Styling**/
+.bg-darkblue {
+  background-color: #1A1460;
+}
+
+/** BOOTSTRAP **/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/** Enable Dropdown hover in navbar **/
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+// TABLE
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin: 1rem 0;
+}
+
+table * {
+  position: relative
+}
+
+table td,
+table th {
+  padding-left: 8px
+}
+
+table thead tr {
+  height: 50px;
+  background-color: #f5f5f5;
+}
+
+table tbody tr {
+  height: 50px
+}
+
+table tbody tr:last-child {
+  border: 0
+}
+
+table td,
+table th {
+  text-align: left
+}
+
+table td.l,
+table th.l {
+  text-align: right
+}
+
+table td.c,
+table th.c {
+  text-align: center
+}
+
+table td.r,
+table th.r {
+  text-align: center
+}
+
+.table100-head th {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5
+}
+
+tbody tr {
+  font-size: 15px;
+  color: gray;
+  line-height: 1.2;
+  font-weight: unset
+}
+
+tbody tr:hover {
+  color: #555;
+  background-color: #f5f5f5;
+  cursor: pointer
+}
+
+// p {
+//   text-align: justify;
+// 	text-align-last: none;
+// }
+
+
+#animated-background {
+  position: relative;
+  height: 50vh;
+  /* center text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#animated-background:before {
+  content: '';
+  background: url('/gif1.gif');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  filter: blur(15px);
+}
+
+#animated-background>* {
+  // color: darkorange;
+  /* stack text above pseudoelement */
+  // position: initial;
+  z-index: 2;
+}
+
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
