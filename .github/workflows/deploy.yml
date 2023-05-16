@@ -31,4 +31,4 @@ jobs:
       with:
         name: twappsnet
     - name: Deploy
-      run: rsync -avz public/ ${{ secrets.DEPLOY_USER }}:${{ secrets.DEPLOY_PASS }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}
+      run: rsync -avz / ${{ secrets.DEPLOY_USER }}:${{ secrets.DEPLOY_PASS }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}
