@@ -135,7 +135,7 @@ tbody tr:hover {
 
 #animated-background {
   position: relative;
-  height: 50vh;
+  height: calc(75vh - 50px);
   /* center text */
   display: flex;
   justify-content: center;

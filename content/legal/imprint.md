@@ -4,13 +4,16 @@ title: Imprint
 
 # Impressum/legal notice
 #### Angaben gemäß § 5 TMG:
-Christian Werner\
+<!-- TODO: Hide
+https://github.com/martignoni/hugo-cloak-email -->
+
+<!-- Christian Werner\
 Raiffeisenstrasse 6\
-67251 Freinsheim
+67251 Freinsheim -->
 
 ##### Kontakt:
-Email: contact@twapps.net\
-Telefon: +49 177 7292592
+<!-- Email: contact@twapps.net\
+Telefon: +49 177 7292592 -->
 
 #### Haftung für Inhalte
 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.

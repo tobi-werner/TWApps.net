@@ -18,17 +18,17 @@ III. Informationen zur Datenverarbeitung
 #### I. Informationen über uns als Verantwortliche
 Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:
 
-Christian Werner\
+<!-- Christian Werner\
 Raiffeisenstrasse 6\
 67251 Freinsheim\
 Deutschland
 
 E-Mail: contact@twapps.net\
-Phone: +49 177 7292592
+Phone: +49 177 7292592 -->
 
 Datenschutzbeauftragte/r beim Anbieter ist:
 
-Christian Werner 
+<!-- Christian Werner  -->
 
 #### II. Rechte der Nutzer und Betroffenen
 Mit Blick auf die nachfolgend noch näher beschriebene Datenverarbeitung haben die Nutzer und Betroffenen das Recht
