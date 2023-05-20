@@ -2,14 +2,14 @@ deployBeta:
 	echo "Compile Website"
 	hugo --minify --baseURL="http://beta.twapps.net/"
 	echo "Upload"
-	rsync -avz public/ ${STRATO_USER}@${STRATO_HOST}:~/beta.twapps.net
+	rsync -avz public/ strato:~/beta.twapps.net
 	echo "Done uploading."
 
 deployProd:
 	echo "Compile Website"
 	hugo --minify --baseURL="https://www.twapps.net/"
 	echo "Upload"
-	rsync -avz public/ ${STRATO_USER}@${STRATO_HOST}:~/twapps.net
+	rsync -avz public/ strato:~/twapps.net
 	echo "Done uploading."
 
 build:
