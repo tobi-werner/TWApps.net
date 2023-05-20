@@ -1,6 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'TWApps'
+paginate = 5
 
 [params]
 name = "Tobias Werner"
