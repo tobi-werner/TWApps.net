@@ -3,7 +3,7 @@
 {{- end }}
 
 {{ define "main" }}
-<section class="py-5 text-center container" style="background: url('{{.Page.Params.banner}}') right center; background-size:cover;">
+<section class="py-5 text-center container-md" style="background: url('{{.Page.Params.banner}}') right center; background-size:cover;">
     <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="game-title">{{.Page.Title}}</h1>
@@ -16,7 +16,7 @@
     <div class="column">
         <section class="hero is-default is-bold">
             <div class="hero-body">
-                <div class="content container pb-5" style="background-color: #{{ .Page.Params.backgroundcolor }};">
+                <div class="content container-md pb-5" style="background-color: #{{ .Page.Params.backgroundcolor }};">
                     {{ .Content}}
                 </div>
                 <br>
