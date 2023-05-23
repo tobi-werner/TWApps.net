@@ -11,17 +11,7 @@
     </div>
 </section>
 
-{{/*  TODO: Migrate to bootstrap  */}}
-<div class="columns is-fullheight">
-    <div class="column">
-        <section class="hero is-default is-bold">
-            <div class="hero-body">
-                <div class="content container-md pb-5" style="background-color: #{{ .Page.Params.backgroundcolor }};">
-                    {{ .Content}}
-                </div>
-                <br>
-            </div>
-        </section>
-    </div>
+<div class="container-md py-2" style="background-color: #{{ .Page.Params.backgroundcolor }};">
+        {{.Content}}
 </div>
 {{ end }}
