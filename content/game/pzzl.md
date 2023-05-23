@@ -18,11 +18,9 @@ There are 5 unlockable game modes with different levels of difficulty, as well a
 
 ## Out now on iOS
 
-{{< center>}}
-
+<center>
 {{< appstorebadge >}}
-
-{{</ center>}}
+</center>
 
 {{< youtube z1jf_0qNkKQ >}}
 

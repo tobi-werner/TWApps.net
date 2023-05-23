@@ -1,0 +1,15 @@
+<center>
+    {{- $pc := .Page.Site.Config.Privacy.YouTube -}}
+    {{- if not $pc.Disable -}}
+    {{- $ytHost := cond $pc.PrivacyEnhanced "www.youtube-nocookie.com" "www.youtube.com" -}}
+    {{- $id := .Get "id" | default (.Get 0) -}}
+    {{- $width := .Get "width" | default "750px" -}}
+    {{- $title := .Get "title" | default "YouTube Video" }}
+    <div>
+        {{/*  TODO: Define class with style params  */}}
+        <iframe src="https://{{ $ytHost }}/embed/{{ $id }}{{ with .Get " autoplay" }}{{ if eq . "true" }}?autoplay=1{{
+            end }}{{ end }}" style="width: {{ $width }}; aspect-ratio:16/9; max-width: 100%; border:0;" allowfullscreen
+            title="{{ $title }}"></iframe>
+    </div>
+    {{ end -}}
+</center>

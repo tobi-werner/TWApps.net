@@ -16,11 +16,9 @@ Lamps emit light, while blocks create shadows. It's a simple concept, but with e
 
 With over 140 levels to explore, you can challenge yourself to solve each perfectly with a given amount of moves. Each level is a masterpiece on its own, showcasing the creative potential of light and shadow. Whether you're a casual player or a seasoned puzzle-solver, this game offers a fun and engaging way to explore the art of manipulating light and shadow.
 
-{{< center>}}
-
+<center>
 {{< appstorebadge >}}
-
-{{</ center>}}
+</center>
 
 {{< youtube kFvjVxZM1sY >}}
 

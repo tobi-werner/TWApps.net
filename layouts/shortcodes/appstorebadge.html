@@ -1,8 +1,9 @@
-{{ $badge := resources.GetRemote "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1501113600" }}
+{{ $badge := resources.GetRemote
+"https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1501113600"
+}}
 {{ $badge := $badge.Content | resources.FromString "images/appstore_badge.svg" }}
 <div style="margin: 20px;">
-<a href="https://apps.apple.com/us/app/{{.Page.Params.appName}}/id{{.Page.Params.appId}}?itsct=apps_box_badge&amp;itscg=30200"
-    style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img
-        src="{{ $badge.RelPermalink }}"
-        alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
-    </div>
+    <a href="https://apps.apple.com/us/app/{{.Page.Params.appName}}/id{{.Page.Params.appId}}?itsct=apps_box_badge&amp;itscg=30200"
+        style="display: inline-block; overflow: hidden; border-radius: 13px; max-width: 75%; width: 200px; aspect-ratio: 250/83;"><img
+            src="{{ $badge.RelPermalink }}" alt="Download on the App Store" style="width:100%;"></a>
+</div>
