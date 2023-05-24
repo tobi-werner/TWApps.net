@@ -38,32 +38,36 @@ Pzzl. („Puzzle“ - just without vowels) is a puzzle game in which the player 
 
 ### iPad
 
-[![Image 1](/press/pzzl/ipad_1-small.png)](/press/pzzl/ipad_1.png)
-[![Image 2](/press/pzzl/ipad_2-small.png)](/press/pzzl/ipad_2.png)
-[![Image 3](/press/pzzl/ipad_3-small.png)](/press/pzzl/ipad_3.png)
-[![Image 4](/press/pzzl/ipad_4-small.png)](/press/pzzl/ipad_4.png)
+<div class="row">
+{{<presskit-screenshot "images/ipad_1.png" "iPad Screenshot 1">}}
+{{<presskit-screenshot "images/ipad_2.png" "iPad Screenshot 2">}}
+{{<presskit-screenshot "images/ipad_3.png" "iPad Screenshot 3">}}
+{{<presskit-screenshot "images/ipad_4.png" "iPad Screenshot 4">}}
+</div>
 
 ### iPhone
 
-[![Image 1](/press/pzzl/iphone_1-small.png)](/press/pzzl/iphone_1.png)
-[![Image 2](/press/pzzl/iphone_2-small.png)](/press/pzzl/iphone_2.png)
-[![Image 3](/press/pzzl/iphone_3-small.png)](/press/pzzl/iphone_3.png)
-[![Image 4](/press/pzzl/iphone_4-small.png)](/press/pzzl/iphone_4.png)
+<div class="row">
+{{<presskit-screenshot "images/iphone_1.png" "iPhone Screenshot 1">}}
+{{<presskit-screenshot "images/iphone_2.png" "iPhone Screenshot 2">}}
+{{<presskit-screenshot "images/iphone_3.png" "iPhone Screenshot 3">}}
+{{<presskit-screenshot "images/iphone_4.png" "iPhone Screenshot 4">}}
+</div>
 
-### Logo/ App Icon
+### Logo
 
-[![Pzzl. Icon](/press/pzzl/logo-small.png)](/press/pzzl/logo.png)
-[![Pzzl. Logo](/press/pzzl/icon-small.png)](/press/pzzl/icon.png)
+{{<presskit-screenshot "images/logo.png" "Schattenspiel Logo">}}
+
+### App Icon
+
+{{<presskit-screenshot "images/icon.png" "Schattenspiel Icon">}}
 
 ## Videos
 
-Youtube: [V2.0 Gameplay Trailer](https://youtu.be/-8QPvZ01WvQ)
 {{<youtube "-8QPvZ01WvQ">}}
 
-YouTube: [Teaser](https://youtu.be/z1jf_0qNkKQ)  
 {{<youtube "z1jf_0qNkKQ">}}
 
-YouTube: [Launch Trailer](https://youtu.be/IHnFkHzfg8A)  
 {{<youtube "IHnFkHzfg8A">}}
 
 ## Request a press copy

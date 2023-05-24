@@ -1,0 +1,6 @@
+<div class="col my-1" style="max-width: 50%; width: 200px;">
+{{ $imagename := .Get 0}}
+{{ $image := .Page.Resources.Get $imagename }}
+{{ $image := $image.Resize "200x webp" }}
+<a href="{{ $imagename}}"><img src="{{ $image.RelPermalink }}" alt="{{.Get 1}}" style="width: 100%;"></a>
+</div>

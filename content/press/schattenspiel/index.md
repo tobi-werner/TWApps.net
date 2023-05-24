@@ -38,29 +38,44 @@ There are 121 Level (40 added in the update on V1.5) which can be solved normal 
 
 ### iPad
 
-[![Image 1](/press/schattenspiel/ipad_1-small.png)](/press/schattenspiel/ipad_1.png)
-[![Image 2](/press/schattenspiel/ipad_2-small.png)](/press/schattenspiel/ipad_2.png)
-[![Image 3](/press/schattenspiel/ipad_3-small.png)](/press/schattenspiel/ipad_3.png)
-[![Image 4](/press/schattenspiel/ipad_4-small.png)](/press/schattenspiel/ipad_4.png)
+<div class="row">
+{{<presskit-screenshot "images/ipad_1.png" "iPad Screenshot 1">}}
+{{<presskit-screenshot "images/ipad_2.png" "iPad Screenshot 2">}}
+{{<presskit-screenshot "images/ipad_3.png" "iPad Screenshot 3">}}
+{{<presskit-screenshot "images/ipad_4.png" "iPad Screenshot 4">}}
+</div>
+<!-- [![Image 1](images/ipad_1-small.png)](images/ipad_1.png)
+[![Image 2](images/ipad_2-small.png)](images/ipad_2.png)
+[![Image 3](images/ipad_3-small.png)](images/ipad_3.png)
+[![Image 4](images/ipad_4-small.png)](images/ipad_4.png) -->
 
 ### iPhone
 
-[![Image 1](/press/schattenspiel/iphone_1-small.png)](/press/schattenspiel/iphone_1.png)
-[![Image 2](/press/schattenspiel/iphone_2-small.png)](/press/schattenspiel/iphone_2.png)
-[![Image 3](/press/schattenspiel/iphone_3-small.png)](/press/schattenspiel/iphone_3.png)
-[![Image 4](/press/schattenspiel/iphone_4-small.png)](/press/schattenspiel/iphone_4.png)
+<div class="row">
+{{<presskit-screenshot "images/iphone_1.png" "iPhone Screenshot 1">}}
+{{<presskit-screenshot "images/iphone_2.png" "iPhone Screenshot 2">}}
+{{<presskit-screenshot "images/iphone_3.png" "iPhone Screenshot 3">}}
+{{<presskit-screenshot "images/iphone_4.png" "iPhone Screenshot 4">}}
+</div>
 
-### Logo/ App Icon
+<!-- [![Image 1](images/iphone_1-small.png)](images/iphone_1.png)
+[![Image 2](images/iphone_2-small.png)](images/iphone_2.png)
+[![Image 3](images/iphone_3-small.png)](images/iphone_3.png)
+[![Image 4](images/iphone_4-small.png)](images/iphone_4.png) -->
 
-[![Schattenspiel Icon](/press/schattenspiel/logo-small.png)](/press/schattenspiel/logo.png)
-[![Schattenspiel Logo](/press/schattenspiel/icon-small.png)](/press/schattenspiel/icon.png)
+### Logo
+{{<presskit-screenshot "images/logo.png" "Schattenspiel Logo">}}
+
+### App Icon
+{{<presskit-screenshot "images/icon.png" "Schattenspiel Icon">}}
+
+<!-- [![Schattenspiel Icon](images/logo-small.png)](images/logo.png)
+[![Schattenspiel Logo](images/icon-small.png)](images/icon.png) -->
 
 ## Videos
 
-YouTube: [Teaser](https://youtu.be/kFvjVxZM1sY)  
 {{<youtube "kFvjVxZM1sY">}}
 
-YouTube: [Launch Trailer](https://youtu.be/1E2ODa5QSyQ)  
 {{<youtube "1E2ODa5QSyQ">}}
 
 ## Request a press copy

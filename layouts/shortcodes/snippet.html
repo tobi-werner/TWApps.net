@@ -1,0 +1,3 @@
+{{with $f := .Get 0}}
+{{ os.ReadFile $f | markdownify }}
+{{end}}

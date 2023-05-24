@@ -26,4 +26,4 @@ There are 5 unlockable game modes with different levels of difficulty, as well a
 
 ## Press
 
-Contact information, screenshots and more are available in the [presskit]({{< ref "/press/schattenspiel" >}}).
+Contact information, screenshots and more are available in the [presskit]({{< ref "/press/pzzl" >}}).
