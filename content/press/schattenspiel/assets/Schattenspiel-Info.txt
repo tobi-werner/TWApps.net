@@ -1,0 +1,78 @@
+Schattenspiel Presskit
+
+————————
+Factsheet
+
+Game Name:
+Schattenspiel
+
+Developer:
+Tobias Werner
+
+Release date:
+July 27, 2017
+
+V1.5 Release date:
+June 7, 2018
+
+Platforms:
+iOS only
+
+App Store Link:
+https://itunes.apple.com/us/app/schattenspiel/id1222140388?l=de&ls=1&mt=8
+
+Website:
+http://www.twapps.net/schattenspiel
+
+Regular Price:
+USD: $0.99
+EUR: €1.09
+
+————————
+Description
+
+Schattenspiel (german: shadow theatre) is a puzzle game about light and shadow. In each level the goal is to recreate a given shadow pattern. This is achieved by moving lamps and blocks around. It gets complicated when the player has to decide which lamps and blocks to toggle to solve the level.
+
+There are 121 Level (40 added in the update on V1.5) which can be solved normal and perfect. To complete a level perfectly, the player must not exceed a certain number of moves.
+
+————————
+Features
+
+- 121 level (can be solved normally or perfectly)
+- Achievements, Leaderboards & iCloud savings
+- No time limits
+- One handed portrait play
+- Universal (iPhone, iPad, iPod touch)
+- Achievements, Leaderboards, Cloud saves
+- Haptic Feedback (iPhone 7,8,X)
+- No advertisements or in-app purchases
+
+————————
+Changes in the latest update (V1.5)
+
+- added a new level box containing another 40 level. (New box gets unlocked when completing level 25)
+- new level box introduces a new game mechanic: Toggled blocks (A disabled block doesn't cast shadow)
+- added French and Italian as new languages
+
+————————
+Teaser Trailer (YouTube):
+https://youtu.be/kFvjVxZM1sY
+
+Launch Trailer (YouTube):
+https://youtu.be/1E2ODa5QSyQ
+
+————————
+About
+
+My name is Tobias and I'm a 19 year old indie game developer. I started programming in 2013 and released my first game in 2015.
+
+The idea for the Schattenspiel came with the repair of a broken lamp. Without the lampshade, the lamp casted a shadow pattern against the wall. This inspired me to create this minimalistic puzzle game about shadows
+
+————————
+Contact
+
+Tobias Werner
+Game Developer, Designer
+email: mail@twapps.net
+twitter: https://twitter.com/madebyTWApps
+website: http://www.twapps.net/

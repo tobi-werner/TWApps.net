@@ -15,3 +15,5 @@ deployProd:
 build:
 	hugo server -D
 
+generatePresskit:
+	scripts/generatePresskit.sh

@@ -5,7 +5,7 @@ weight: 2
 
 # Pzzl. Presskit
 
-{{<presskit-download "Pzzl-Presskit.zip" "/press/pzzl/pzzl-presskit.zip">}}
+{{<presskit-download "Pzzl-Presskit.zip" "/press/pzzl-presskit.zip">}}
 
 ## Factsheet
 
@@ -39,28 +39,28 @@ Pzzl. („Puzzle“ - just without vowels) is a puzzle game in which the player 
 ### iPad
 
 <div class="row">
-{{<presskit-screenshot "images/ipad_1.png" "iPad Screenshot 1">}}
-{{<presskit-screenshot "images/ipad_2.png" "iPad Screenshot 2">}}
-{{<presskit-screenshot "images/ipad_3.png" "iPad Screenshot 3">}}
-{{<presskit-screenshot "images/ipad_4.png" "iPad Screenshot 4">}}
+{{<presskit-screenshot "assets/ipad_1.png" "iPad Screenshot 1">}}
+{{<presskit-screenshot "assets/ipad_2.png" "iPad Screenshot 2">}}
+{{<presskit-screenshot "assets/ipad_3.png" "iPad Screenshot 3">}}
+{{<presskit-screenshot "assets/ipad_4.png" "iPad Screenshot 4">}}
 </div>
 
 ### iPhone
 
 <div class="row">
-{{<presskit-screenshot "images/iphone_1.png" "iPhone Screenshot 1">}}
-{{<presskit-screenshot "images/iphone_2.png" "iPhone Screenshot 2">}}
-{{<presskit-screenshot "images/iphone_3.png" "iPhone Screenshot 3">}}
-{{<presskit-screenshot "images/iphone_4.png" "iPhone Screenshot 4">}}
+{{<presskit-screenshot "assets/iphone_1.png" "iPhone Screenshot 1">}}
+{{<presskit-screenshot "assets/iphone_2.png" "iPhone Screenshot 2">}}
+{{<presskit-screenshot "assets/iphone_3.png" "iPhone Screenshot 3">}}
+{{<presskit-screenshot "assets/iphone_4.png" "iPhone Screenshot 4">}}
 </div>
 
 ### Logo
 
-{{<presskit-screenshot "images/logo.png" "Schattenspiel Logo">}}
+{{<presskit-screenshot "assets/logo.png" "Schattenspiel Logo">}}
 
 ### App Icon
 
-{{<presskit-screenshot "images/icon.png" "Schattenspiel Icon">}}
+{{<presskit-screenshot "assets/icon.png" "Schattenspiel Icon">}}
 
 ## Videos
 

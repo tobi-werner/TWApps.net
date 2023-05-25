@@ -5,7 +5,7 @@ weight: 1
 
 # Schattenspiel Presskit
 
-{{<presskit-download "Schattenspiel-Presskit.zip" "/press/schattenspiel/schattenspiel-presskit.zip">}}
+{{<presskit-download "Schattenspiel-Presskit.zip" "/press/schattenspiel-presskit.zip">}}
 
 ## Factsheet
 
@@ -39,38 +39,38 @@ There are 121 Level (40 added in the update on V1.5) which can be solved normal 
 ### iPad
 
 <div class="row">
-{{<presskit-screenshot "images/ipad_1.png" "iPad Screenshot 1">}}
-{{<presskit-screenshot "images/ipad_2.png" "iPad Screenshot 2">}}
-{{<presskit-screenshot "images/ipad_3.png" "iPad Screenshot 3">}}
-{{<presskit-screenshot "images/ipad_4.png" "iPad Screenshot 4">}}
+{{<presskit-screenshot "assets/ipad_1.png" "iPad Screenshot 1">}}
+{{<presskit-screenshot "assets/ipad_2.png" "iPad Screenshot 2">}}
+{{<presskit-screenshot "assets/ipad_3.png" "iPad Screenshot 3">}}
+{{<presskit-screenshot "assets/ipad_4.png" "iPad Screenshot 4">}}
 </div>
-<!-- [![Image 1](images/ipad_1-small.png)](images/ipad_1.png)
-[![Image 2](images/ipad_2-small.png)](images/ipad_2.png)
-[![Image 3](images/ipad_3-small.png)](images/ipad_3.png)
-[![Image 4](images/ipad_4-small.png)](images/ipad_4.png) -->
+<!-- [![Image 1](assets/ipad_1-small.png)](assets/ipad_1.png)
+[![Image 2](assets/ipad_2-small.png)](assets/ipad_2.png)
+[![Image 3](assets/ipad_3-small.png)](assets/ipad_3.png)
+[![Image 4](assets/ipad_4-small.png)](assets/ipad_4.png) -->
 
 ### iPhone
 
 <div class="row">
-{{<presskit-screenshot "images/iphone_1.png" "iPhone Screenshot 1">}}
-{{<presskit-screenshot "images/iphone_2.png" "iPhone Screenshot 2">}}
-{{<presskit-screenshot "images/iphone_3.png" "iPhone Screenshot 3">}}
-{{<presskit-screenshot "images/iphone_4.png" "iPhone Screenshot 4">}}
+{{<presskit-screenshot "assets/iphone_1.png" "iPhone Screenshot 1">}}
+{{<presskit-screenshot "assets/iphone_2.png" "iPhone Screenshot 2">}}
+{{<presskit-screenshot "assets/iphone_3.png" "iPhone Screenshot 3">}}
+{{<presskit-screenshot "assets/iphone_4.png" "iPhone Screenshot 4">}}
 </div>
 
-<!-- [![Image 1](images/iphone_1-small.png)](images/iphone_1.png)
-[![Image 2](images/iphone_2-small.png)](images/iphone_2.png)
-[![Image 3](images/iphone_3-small.png)](images/iphone_3.png)
-[![Image 4](images/iphone_4-small.png)](images/iphone_4.png) -->
+<!-- [![Image 1](assets/iphone_1-small.png)](assets/iphone_1.png)
+[![Image 2](assets/iphone_2-small.png)](assets/iphone_2.png)
+[![Image 3](assets/iphone_3-small.png)](assets/iphone_3.png)
+[![Image 4](assets/iphone_4-small.png)](assets/iphone_4.png) -->
 
 ### Logo
-{{<presskit-screenshot "images/logo.png" "Schattenspiel Logo">}}
+{{<presskit-screenshot "assets/logo.png" "Schattenspiel Logo">}}
 
 ### App Icon
-{{<presskit-screenshot "images/icon.png" "Schattenspiel Icon">}}
+{{<presskit-screenshot "assets/icon.png" "Schattenspiel Icon">}}
 
-<!-- [![Schattenspiel Icon](images/logo-small.png)](images/logo.png)
-[![Schattenspiel Logo](images/icon-small.png)](images/icon.png) -->
+<!-- [![Schattenspiel Icon](assets/logo-small.png)](assets/logo.png)
+[![Schattenspiel Logo](assets/icon-small.png)](assets/icon.png) -->
 
 ## Videos
 
