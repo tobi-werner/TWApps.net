@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'TWApps'
 paginate = 5
+disableKinds = ["taxonomy"]
 
 [params]
 name = "Tobias Werner"

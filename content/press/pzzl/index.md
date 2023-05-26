@@ -33,8 +33,9 @@ Pzzl. („Puzzle“ - just without vowels) is a puzzle game in which the player 
 - Achievements, Leaderboards, iCloud saves
 - Haptic Feedback
 
+## Images 
 
-## Images (Click to see full resolution)
+*(Click to see full resolution)*
 
 ### iPad
 

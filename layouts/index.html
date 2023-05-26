@@ -25,37 +25,7 @@
     </section>
 </div>
 
-<div class="album py-5" style="background: linear-gradient(180deg, rgba(26,20,96,1) 0%, rgba(98,13,85,1) 100%);">
-    <div class="container-lg">
-        <h1 class="text-light" id="games">Games</h1>
-        <div class="row row-cols-1 row-cols-sm-2 g-4">
-            {{ $paginator := .Paginate (where .Site.RegularPages "Type" "game") }}
-            {{ range $paginator.Pages }}
-            <div class="col">
-                <div class="card" style="border-radius: 20px; background-color: #{{.Page.Params.backgroundcolor}};">
-                    <img class="bd-placeholder-img card-img-top" src="/banner_{{.Page.Params.AppName | lower}}.jpg"
-                        style="object-fit: cover; object-position: 100% 50%; height: 200px; border-radius: 20px 20px 0 0;"
-                        alt="Placeholder image">
-                    <div class="card-body">
-
-                        <div class="row">
-                            <div class="col-md-auto">
-                                <img src="/icon_{{.Page.Params.AppName | lower}}.jpg" alt="Placeholder image"
-                                    style="border-radius: 22%; width: 100px; border: 1px solid lightgray;">
-                            </div>
-                            <div class="col-md-auto">
-                                <h2>{{.Title}}</h2>
-                                <p class="card-text">{{.Page.Params.subtitle}}</p>
-                            </div>
-                        </div>
-                        <a href="{{ .Permalink }}" class="stretched-link"></a>
-                    </div>
-                </div>
-            </div>
-            {{ end }}
-        </div>
-    </div>
-</div>
+{{ partial "games.html" . }}
 
 {{/*  <div class="album">
     <div class="container-md py-2" style="min-height: 75vh;">

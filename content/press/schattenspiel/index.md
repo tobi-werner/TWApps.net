@@ -34,7 +34,9 @@ There are 121 Level (40 added in the update on V1.5) which can be solved normal 
 - Haptic Feedback
 - No advertisements or in-app purchases
 
-## Images (Click to see full resolution)
+## Images 
+
+*(Click to see full resolution)*
 
 ### iPad
 
