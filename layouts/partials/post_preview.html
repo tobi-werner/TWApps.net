@@ -1,0 +1,21 @@
+<div class="card flex-row flex-lg-nowrap flex-wrap border-0 my-5" style="background-color: #F4F5F1;">
+    <div class="border-0 col-8-sm d-flex flex-wrap align-items-center">
+        <img src="//placehold.it/800x400" alt="" style="max-width: 100%;" />
+    </div>
+    <div class="col-8-sm mt-1 ps-0 ps-lg-2">
+        <h2 class="card-title">{{.Title}}</h2>
+        <p class="card-text text-muted">
+            <i>{{ .PublishDate.Format "January 2, 2006" }}</i> &#x2022;
+            {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+            {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
+            $taxonomy $tag) -}}
+            <a href="{{ .Permalink }}" style="text-decoration: none;">
+                <span class="badge bg-light text-muted rounded-pill">{{ $tag | urlize }}</span>
+            </a>
+            {{- end -}} {{- end -}}
+            {{ end }}
+        </p>
+        <p class="card-text text-wrap m-0" style="text-align: justify;">{{.Page.Summary}}</p>
+        <a href="{{ .Permalink }}" class="m-0">Read more..</a>
+    </div>
+</div>
