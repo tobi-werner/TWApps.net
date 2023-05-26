@@ -17,3 +17,6 @@ build:
 
 generatePresskit:
 	scripts/generatePresskit.sh
+
+deleteEmptyUrls:
+	sh scripts/deleteEmptyUrls.sh
