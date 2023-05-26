@@ -1,5 +1,6 @@
 ---
 title: Home
+aliases: ['/game', '/press']
 ---
 
 ## Hi &#128075;
