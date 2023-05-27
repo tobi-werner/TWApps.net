@@ -1,5 +1,6 @@
 ---
 title: Pzzl. Presskit
+description: View and download press resources for Pzzl.
 weight: 2
 ---
 

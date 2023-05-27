@@ -1,5 +1,7 @@
 ---
 title: Schattenspiel
+description: Discover Schattenspiel an iOS indie puzzle game developed by Tobias Werner
+
 weight: 1
 banner: /banner_schattenspiel.jpg
 background: background_schattenspiel.png

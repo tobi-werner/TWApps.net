@@ -1,5 +1,6 @@
 ---
 title: Schattenspiel Presskit
+description: View and download press resources for Schattenspiel
 weight: 1
 ---
 

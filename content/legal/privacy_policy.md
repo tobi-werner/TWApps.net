@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+description: privacy policy
 ---
 
 # Datenschutzerklärung

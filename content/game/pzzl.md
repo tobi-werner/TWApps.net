@@ -1,5 +1,7 @@
 ---
 title: Pzzl.
+description: Discover Pzzl. an iOS indie puzzle game developed by Tobias Werner
+
 banner: /banner_pzzl.jpg
 background: background_pzzl.jpg
 backgroundcolor: dbc9a5

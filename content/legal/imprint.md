@@ -1,5 +1,6 @@
 ---
 title: Imprint
+description: Imprint
 ---
 
 # Impressum/legal notice
