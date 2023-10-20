@@ -150,7 +150,7 @@ tbody tr:hover {
 
 #animated-background:before {
   content: '';
-  background: url('/background.gif');
+  background: url('/background.mp4');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -159,7 +159,7 @@ tbody tr:hover {
   right: 0;
   bottom: 0;
   z-index: 1;
-  filter: blur(15px);
+  filter: blur(20px);
 }
 
 #animated-background>* {

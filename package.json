@@ -1,0 +1,26 @@
+{
+  "name": "twapps.net",
+  "version": "1.0.0",
+  "description": "twapps.net website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobi-werner/TWApps.net.git"
+  },
+  "author": "Tobias Werner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobi-werner/TWApps.net/issues"
+  },
+  "homepage": "https://github.com/tobi-werner/TWApps.net#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0"
+  }
+}
