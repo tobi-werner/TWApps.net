@@ -23,6 +23,9 @@ deployProd:
 build:
 	hugo server -D
 
+validate:
+	npx unlighthouse --site https://www.twapps.net/ --no-cache
+
 generatePresskit:
 	scripts/generatePresskit.sh
 
