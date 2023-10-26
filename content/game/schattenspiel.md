@@ -6,7 +6,7 @@ weight: 1
 banner: /banner_schattenspiel.jpg
 background: background_schattenspiel.png
 backgroundcolor: eee
-subtitle: A Game of Puzzles and Shadows
+subtitle: A game of puzzles and shadows
 appName: Schattenspiel
 appId: 1222140388
 appstoreurl: https://apps.apple.com/us/app/schattenspiel/id1222140388

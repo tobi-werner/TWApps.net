@@ -1,6 +1,9 @@
 ---
 title: Schattenspiel Presskit
+subtitle: A game of puzzles and shadows
 description: View and download press resources for Schattenspiel
+appName: Schattenspiel
+releaseDate: July 27, 2017
 weight: 1
 ---
 

@@ -5,8 +5,8 @@
 {{ else }}
 <title>{{ .Site.Title }}</title>
 {{ end }}
-<meta name="description" content="{{ .Page.Description }}">
-<meta name="author" content="{{ .Site.Author.name }}">
+<meta name="description" content="{{ if .Page.Description }}{{ .Page.Description }}{{ else }}Discover iOS games developed by Tobias Werner.{{ end }}">
+<meta name="author" content="{{ if .Site.Author.name }}{{ .Site.Author.name }}{{ else }}Tobias Werner{{ end }}">
 <meta name="keywords" content="{{ .Page.Params.keywords }}">
 
 <link rel="icon" href="/favicon.png">

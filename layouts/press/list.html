@@ -1,0 +1,43 @@
+{{ define "title" -}}
+{{ .Title }} | {{ .Site.Title }}
+{{- end }}
+
+{{ define "main" }}
+<div class="album">
+    
+    <div class="album py-5">
+        <div class="container-lg">
+            {{ .Content }}
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+                {{ $paginator := .Paginate (where .Site.RegularPages "Type" "press") }}
+                {{ range $paginator.Pages }}
+                <div class="col">
+                    <div class="card" style="border-radius: 20px; background-color: #{{.Page.Params.backgroundcolor}};">
+                       
+                        <div class="card-body">
+    
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4">
+                                    <img src="/icon_{{.Page.Params.AppName | lower}}.jpg" alt="Placeholder image"
+                                        style="border-radius: 22%; width: 100px; border: 1px solid lightgray;" width="100px" height="100px">
+                                </div>
+                                <div class="col-md-auto">
+                                    <h2>{{.Title}}</h2>
+                                    <p class="card-text" style="margin: 0;">{{.Page.Params.subtitle}}</p>
+                                </div>
+                            </div>
+                            <a href="{{ .Permalink }}" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+{{ end }}
+
+

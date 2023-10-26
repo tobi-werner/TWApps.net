@@ -3,6 +3,7 @@ title: Test2
 subtitle: subtitle
 publishDate: 2023-01-01
 draft: false
+description: test blog article
 tags: ['tag1', 'release']
 ---
 
@@ -18,7 +19,7 @@ Itaque eius, rerum perferendis aliquid nam incidunt, eos magni recusandae enim e
 </p></details><p></p>
 
 <center>
-{{<figure src="/press/pzzl/icon.png" alt="Test title" caption="test caption test caption test caption test caption test caption test caption test caption test caption test caption test caption v test caption v vtest caption" width="500px">}}
+{{<figure src="icon.png" alt="Test title" caption="test caption test caption test caption test caption test caption test caption test caption test caption test caption test caption v test caption v vtest caption" width="500px">}}
 </center>
 
 <center>

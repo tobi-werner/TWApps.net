@@ -3,6 +3,7 @@ title: Test2
 subtitle: subtitle
 publishDate: 2023-01-01
 draft: false
+description: Test blog article
 tags:
     - beta
     - test

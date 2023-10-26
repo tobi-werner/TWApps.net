@@ -1,6 +1,9 @@
 ---
 title: Pzzl. Presskit
+subtitle: A game with style
 description: View and download press resources for Pzzl.
+appName: Pzzl
+releaseDate: January 11, 2017
 weight: 2
 ---
 

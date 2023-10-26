@@ -3,6 +3,7 @@ title: Test
 subtitle: subtitle
 publishDate: 2023-02-01
 draft: false
+description: test blog article
 tags: ['tag3', 'testing']
 ---
 

@@ -1,7 +1,7 @@
 #! bin/bash
 
 echo $(pwd)
-pages=("legal" "press" "game")
+pages=("legal")
 
 cd public
 echo $(pwd)
